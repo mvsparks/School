@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#808080</color>
+    <color name="studentName">#FF8C00</color>
+    <color name="letterGrade">#000</color>
+    <color name="grades">#800</color>
+</resources>

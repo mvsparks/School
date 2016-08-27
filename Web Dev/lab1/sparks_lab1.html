@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Car Dealership Survey</title>
+</head>
+
+
+
+<center><table border=25 bgcolor=gray>
+<tr><td align="center"><h4>Please enter your personal information</h4>
+<form action="http://ps11.pstcc.edu/~c2230a07/cgi-bin/results.cgi" method=get>
+<tr><td align="center">First Name: <input type="text" name="fname"></td></tr>
+<tr><td align="center">Last Name: <input type="text" name="lname"></td></tr>
+
+<tr><td align="center"><h4>What model car did you purchase today?</h4>
+Model: <input type="text" name="model"><br></td></tr>
+
+<tr><td align="center"><h4>Who was your salesman today?</h4>
+<select>
+	<option value="NULL" name="model">.</option>
+	<option value="1" name="model">John Smith</option>
+	<option value="2" name="model">Jane Doe</option>
+	<option value="3" name="model">Dan Carter</option>
+	<option value="4" name="model">Josh Williams</option>
+	<option value="5" name="model">Jim Cooper</option>
+</select></td></tr>
+
+<tr><td align="center"><h4>Please rate your overall buying experience.</h4>
+<select>
+	<option value="NULL" name="Q1">.</option>
+	<option value="1" name="Q1">1(poor)</option>
+	<option value="2" name="Q1">2</option>
+	<option value="3" name="Q1">3</option>
+	<option value="4" name="Q1">4</option>
+	<option value="5" name="Q1">5</option>
+	<option value="6" name="Q1">6</option>
+	<option value="7" name="Q1">7</option>
+	<option value="8" name="Q1">8</option>
+	<option value="9" name="Q1">9</option>
+	<option value="10" name="Q1">10(Excellent)</option>
+</select></td></tr>
+
+<tr><td align="center"><h4>Would you recommend us?</h4>
+<select>
+	<option value="NULL" name="recommend">.</option>
+	<option value="Y" name="recommend">Yes</option>
+	<option value="N" name="recommend">No</option>
+</select></td></tr>
+
+<tr><td align="center"><h4>Additional Comments</h4>
+<textarea rows="4" cols="50" name="comments">
+</textarea></td></tr>
+
+<br><br>
+<tr><td align="center"><input type="submit" value="Submit"></td></tr>
+</form>
+</body>
+</table></center>
+</html>

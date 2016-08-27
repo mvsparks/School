@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+<style type = "text/css">
+  @import URL(sparks_lab2B.css);
+</style>
+
+<title>Car Dealership Survey</title>
+</head>
+
+
+<table id="survey">
+<form action="http://ps11.pstcc.edu/~c2230a07/cgi-bin/results.cgi" method=get>
+<tr>
+ <td><img src="logo_bmw_mini_2.jpg" alt="bmw_logo" width:"auto" height="auto"></td>
+</tr>
+<tr>
+  <td><h4>Please enter your personal information<h4></td>
+</tr>
+<tr>
+  <td>First Name: <input type="text" name="fname"></td>
+</tr>
+<tr>
+  <td>Last Name: <input type="text" name="lname"></td>
+</tr>
+<tr>
+  <td><h4>Who was your salesman today?</h4>
+    <select>
+	<option value="NULL" name="salesman">.</option>
+	<option value="1" name="salesman">John Smith</option>
+	<option value="2" name="salesman">Jane Doe</option>
+	<option value="3" name="salesman">Dan Carter</option>
+	<option value="4" name="salesman">Josh Williams</option>
+	<option value="5" name="salesman">Jim Cooper</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td><h4>How would you rate our customer service?</h4>
+    <select>
+      <option value="NULL" name="service">.</option>
+      <option value="1" name="service">1 (Poor)</option>
+      <option value="2" name="service">2</option>
+      <option value="3" name="service">3</option>
+      <option value="4" name="service">4</option>
+      <option value="5" name="service">5 (Excellent)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td><h4>How would you rate our selection?<h4>
+    <select>
+      <option value="NULL" name="selection">.</option>
+      <option value="1" name="selection">1 (Poor)</option>
+      <option value="2" name="selection">2</option>
+      <option value="3" name="selection">3</option>
+      <option value="4" name="selection">4</option>
+      <option value="5" name="selection">5 (Excellent)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td><h4>Please rate your overall buying experience.</h4>
+    <select>
+	<option value="NULL" name="overall">.</option>
+	<option value="1" name="overall">1 (Poor)</option>
+	<option value="2" name="overall">2</option>
+	<option value="3" name="overall">3</option>
+	<option value="4" name="overall">4</option>
+	<option value="5" name="overall">5 (Excellent)</option>
+    </select>
+  </td>
+</tr>
+
+<tr>
+  <td align="center"><h4>Would you recommend us?</h4>
+    <select>
+	<option value="NULL" name="recommend">.</option>
+	<option value="Y" name="recommend">Yes</option>
+	<option value="N" name="recommend">No</option>
+    </select>
+  </td>
+</tr>
+
+<tr>
+<tr>
+  <td><h4>Additional Comments</h4>
+    <textarea rows="4" cols="50" name="comments">
+    </textarea>
+  </td>
+</tr>
+<tr>
+  <td>
+    <input type="submit" value="Submit">
+  </td>
+</tr>
+
+<br><br>
+</form>
+</body>
+</table>
+</html>

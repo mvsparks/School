@@ -1,0 +1,16 @@
+someone@somewhere.com
+abc@def.org
+fkafalk@dfjdalkfajl.net
+123@def.org
+abc1@dfj.dal.edu
+john.smith@someplace.com
+Jane_Smith@someplace.com
+Jane-Smith@otheraddress.net
+hidden@will.show.up.eventually.info
+---valid above---invalid below
+notavalid.address
+!ne!ther!@isthisone.com
+one@@more.com
+last@one.jjj
+just@kidding:net
+ok@nowreallylastone.nettt

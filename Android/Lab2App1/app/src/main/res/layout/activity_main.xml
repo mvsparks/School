@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/lab2app1Main"
+    android:background="#4169E1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewBlount"
+        android:src="@drawable/blount"
+        android:contentDescription="@string/blountDesc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewDivision"
+        android:src="@drawable/division"
+        android:contentDescription="@string/divisionDesc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewHardin"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/hardin"
+        android:contentDescription="@string/hardinDesc"
+        android:clickable="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewMagnolia"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/magnolia"
+        android:contentDescription="@string/magnoliaDesc"
+        android:clickable="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewStrawberry"
+        android:src="@drawable/strawberry"
+        android:contentDescription="@string/stawberryDesc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/blountDesc"
+        android:id="@+id/textViewBlount"
+        android:layout_below="@+id/imageViewBlount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/divisionTitle"
+        android:id="@+id/textViewDivison"
+        android:layout_below="@+id/imageViewDivision"
+        android:layout_alignRight="@+id/imageViewDivision"
+        android:layout_alignEnd="@+id/imageViewDivision"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/strawberryTitle"
+        android:id="@+id/textViewStrawberry"
+        android:layout_alignBottom="@id/imageViewStrawberry"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/hardinTitle"
+        android:id="@+id/textViewHardin"
+        android:layout_below="@+id/imageViewHardin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/magnoliaTitle"
+        android:id="@+id/textViewMagnolia"
+        android:layout_below="@+id/imageViewMagnolia"
+        android:layout_alignRight="@+id/imageViewMagnolia"
+        android:layout_alignEnd="@+id/imageViewMagnolia"
+        android:textSize="14sp" />
+
+</RelativeLayout>

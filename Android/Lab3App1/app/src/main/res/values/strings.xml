@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Lab 3 App 1</string>
+    <string-array name="Shapes">
+        <item>Select Shape</item>
+        <item>Circle</item>
+        <item>Cylinder</item>
+        <item>Rectangle</item>
+        <item>Triangle</item>
+        <item>Sphere</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="enterRadius">Enter Radius</string>
+    <string name="enterHeight">Enter Height</string>
+    <string name="enterWidth">Enter Width</string>
+    <string name="sideA">Enter Side A</string>
+    <string name="sideB">Enter Side B</string>
+    <string name="sideC">Enter Side C</string>
+    <string name="enterLength">Enter Length</string>
+    <string name="calcVolButton">Calculate Volume</string>
+    <string name="area">Area:</string>
+    <string name="circumference">Circumference:</string>
+    <string name="volume">Volume:</string>
+    <string name="perimeter">Perimeter:</string>
+    <string name="surfaceArea">Surface Area:</string>
+    <string name="s">S:</string>
+    <string name="title_activity_display">Results</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="shapeSelected">Shape Selected:</string>
+</resources>

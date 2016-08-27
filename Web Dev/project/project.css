@@ -1,0 +1,20 @@
+a {
+   color: black;
+}
+a:hover, li:hover{ 
+	box-shadow: 0 0 1px red;
+	color: red;
+}
+label, th{
+	color: black;
+}
+panel, body{
+	background-color: #F0F0F0;
+}
+input:hover{
+	background-color: #F5F5F5;
+	border-color: red;
+}
+input{
+	border-color: black;
+}

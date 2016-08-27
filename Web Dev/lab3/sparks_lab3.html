@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet/less" href="sparks_lab3.less">
+   <script src="less.js" type="text/javascript"></script>
+
+<title>Car Dealership Survey</title>
+</head>
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="color: white;">
+      <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+  </div><!--glyphicon nav container -->
+ <div class="navbar-header">
+  <a class="navbar-brand" href="#">The BMW Group</a>
+ </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+  </div><!-- navbar -->
+</nav>
+
+
+<table id="survey">
+<form action="http://ps11.pstcc.edu/~c2230a07/cgi-bin/results.cgi" method=get>
+<tr>
+ <td><img src="logo_bmw_mini_2.jpg" alt="bmw_logo" width:"auto" height="auto"></td>
+</tr>
+<tr>
+  <td><h4>Please enter your personal information</h4></td>
+</tr>
+<tr>
+  <td>First Name: <input type="text" name="fname"></td>
+</tr>
+<tr>
+  <td>Last Name: <input type="text" name="lname"></td>
+</tr>
+<tr>
+  <td><h4>Who was your salesman today?</h4>
+    <select>
+	<option value="NULL" name="salesman">.</option>
+	<option value="1" name="salesman">John Smith</option>
+	<option value="2" name="salesman">Jane Doe</option>
+	<option value="3" name="salesman">Dan Carter</option>
+	<option value="4" name="salesman">Josh Williams</option>
+	<option value="5" name="salesman">Jim Cooper</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td><h4>How would you rate our customer service?</h4>
+    <select>
+      <option value="NULL" name="service">.</option>
+      <option value="1" name="service">1 (Poor)</option>
+      <option value="2" name="service">2</option>
+      <option value="3" name="service">3</option>
+      <option value="4" name="service">4</option>
+      <option value="5" name="service">5 (Excellent)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td><h4>How would you rate our selection?</h4>
+    <select>
+      <option value="NULL" name="selection">.</option>
+      <option value="1" name="selection">1 (Poor)</option>
+      <option value="2" name="selection">2</option>
+      <option value="3" name="selection">3</option>
+      <option value="4" name="selection">4</option>
+      <option value="5" name="selection">5 (Excellent)</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td><h4>Please rate your overall buying experience.</h4>
+    <select>
+	<option value="NULL" name="overall">.</option>
+	<option value="1" name="overall">1 (Poor)</option>
+	<option value="2" name="overall">2</option>
+	<option value="3" name="overall">3</option>
+	<option value="4" name="overall">4</option>
+	<option value="5" name="overall">5 (Excellent)</option>
+    </select>
+  </td>
+</tr>
+
+<tr>
+  <td><h4>Would you recommend us?</h4>
+    <select>
+	<option value="NULL" name="recommend">.</option>
+	<option value="Y" name="recommend">Yes</option>
+	<option value="N" name="recommend">No</option>
+    </select>
+  </td>
+</tr>
+<tr>
+  <td><h4>Additional Comments</h4>
+    <textarea rows="4" cols="50" name="comments">
+    </textarea>
+    <br><br>
+  </td>
+</tr>
+<tr>
+  <td>
+    <button type="submit" value="Submit">Submit</button>
+  </td>
+</tr>
+
+<br><br>
+</form>
+</body>
+</table>
+</html>

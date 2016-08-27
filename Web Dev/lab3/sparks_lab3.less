@@ -1,0 +1,59 @@
+@page-bg-color: black; //body color
+@button-color: gray; //button background, button border
+@table-bg-color: gray; //table background
+@font: sans-serif, "Times New Roman", serif;
+@table-font-size: 18px; 
+@header-font-size: 20px;
+@padding: 3px;
+@border: 4px;
+
+
+#survey {
+	background: -moz-linear-gradient(left,  @table-bg-color - #333,  @table-bg-color + #555);
+	margin: auto;
+	border-collapse: collapse;
+	width: 50%;
+}
+td {
+	text-align: center;
+	font-size: @table-font-size;
+}
+body {
+	background-color: @page-bg-color;
+}
+h4{
+	font-family: @font;
+	font-size: @header-font-size;
+}
+.round_top(@border_size){
+	-webkit-border-top-left-radius: @border_size*4;
+	-webkit-border-top-right-radius: @border_size*4;
+    	-moz-border-radius-topleft: @border_size*4; 
+    	-moz-border-radius-topright: @border_size*4;
+    	border-top-left-radius: @border_size*4; 
+    	border-top-right-radius: @border_size*4;
+}
+.round_bottom(@border_size){
+	-webkit-border-bottom-left-radius: @border_size*4;
+	-webkit-border-bottom-right-radius: @border_size*4;
+    	-moz-border-radius-bottomleft: @border_size*4; 
+    	-moz-border-radius-bottomright: @border_size*4;
+    	border-bottom-left-radius: @border_size*4; 
+    	border-bottom-right-radius: @border_size*4;
+}
+button{
+	background: -moz-linear-gradient(bottom,  @button-color - #222,  @button-color + #222);
+	border: darken(@button-color, 30%);
+	padding: @padding @padding*2;
+	.round_top(@border/4);
+	.round_bottom(@border/4);
+}
+button:hover, select:hover{
+	background: lighten(@button-color, 20%);
+	border: lighten(@button-color, 100%);
+	cursor: pointer;
+}
+img, #survey{
+	.round_top(@border);
+	.round_bottom(@border);
+}

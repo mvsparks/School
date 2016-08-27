@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sparks.csit.lab2app1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/pstcclogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlountActivity"
+            android:label="@string/title_activity_blount" >
+        </activity>
+        <activity
+            android:name=".HardinActivity"
+            android:label="@string/title_activity_hardin" >
+        </activity>
+        <activity
+            android:name=".DivisionActivity"
+            android:label="@string/title_activity_divisin" >
+        </activity>
+        <activity
+            android:name=".MagnoliaActivity"
+            android:label="@string/title_activity_magnolia" >
+        </activity>
+        <activity
+            android:name=".StrawberryActivity"
+            android:label="@string/title_activity_strawberry" >
+        </activity>
+    </application>
+
+</manifest>

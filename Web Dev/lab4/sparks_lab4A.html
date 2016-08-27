@@ -1,0 +1,111 @@
+<!-- Based on template from http://getbootstrap.com/getting-started/ -->
+<!--
+ * Class: CSIT2230 Internet Software
+ * Instructor: Andrey Puretskiy
+ * Description: The purpose of this program is to create a page for a
+ * 		traveling symphony orchestra. We are to use bootstrap
+ *		to create the page. The page should include pictures
+ *		and a table showing upcoming events.
+ * Due: 09/30/2015
+ * Programmer: Vince Sparks
+ * Assignment: Lab 4 Part A
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TSO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: black;">
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="color: white;">
+      <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+  </div><!--glyphicon nav container -->
+ <div class="navbar-header">
+  <a class="navbar-brand" href="#">TSO</a>
+ </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+  </div><!-- navbar -->
+</nav>
+
+<div class="container" style="background-color: black">
+  <div class="jumbotron" style="background-color: gray;">
+    <h1 align="center">Traveling Symphony Orchestra</h1>
+  </div><!-- jumbotron -->
+</div> <!-- jumbotron container -->
+
+<div class="container">
+  <div class="row">
+<!-- Image from www.mysanantonio.com
+     link: http://blogsmysanantonio.com/downtown/files/2011/01/16826691.1-17231851-SYMPHONY-10_02_2010.jpg -->
+   <div class="col-sm-4">
+     <img class="img-responsive" src="lab4AResources/composer1.jpg" alt="Composer" width="400" height="200">
+   </div>
+<!-- Image from www.stlsymphony.org 
+     link: http://www.stlsymphony.org/images/cms/pr/SLSO_2_credit_Scott_Ferguson.jpg" -->
+   <div class="col-sm-4"> 
+     <img class="img-responsive" src="lab4AResources/theatre.jpg" alt="Theatre" width="400" height="200" > 
+   </div>
+<!-- Image from link: http://whartonds.files.wordpress.com/2010/03/symphony-51.jpg" -->
+   <div class="col-sm-4">
+    <img class="img-responsive" src="lab4AResources/composer2.jpg" alt="Composer2" width="400" height="200"> 
+   </div>
+  </div><!-- row -->
+</div><!-- pics container -->
+
+ <div class="container">
+ <div class="panel panel-default">
+ <div class="panel-heading" style="align: center; background-color: black; color: white">Upcoming Events</div>
+ <div class="panel-body" style="background-color: black">
+ <div class="table-responsive">
+  <table class="table" style="color: white;">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Location</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Sound of Music</td>
+        <td>Bijou Theatre</td>
+        <td>October 5, 2015</td>
+      </tr>
+      <tr>
+        <td>Nightmare's Rythm</td>
+        <td>Greek Theatre</td>
+        <td>October 31, 2015</td>
+      </tr>
+      <tr>
+        <td>Winter's Solstice</td>
+        <td>Red Rocks Amphitheatre</td>
+        <td>December 14, 2015</td>
+      </tr>
+      <tr>
+        <td>Music of Christmas</td>
+        <td>Gorge Amphitheatre</td>
+        <td>Decemeber 24, 2015</td>
+      </tr>
+     </tbody>
+    </table>
+   </div> <!-- table div -->
+  </div> <!-- panel body -->
+ </div> <!-- panel -->
+</div< <!-- table container div -->
+
+</body>
+</html>

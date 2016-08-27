@@ -1,0 +1,17 @@
+#survey {
+	background-color: gray;
+	margin: auto;
+	border-collapse: collapse;
+	width: 50%;
+}
+td {
+	text-align: center;
+	font-size: 18px;
+}
+body {
+	background-color: black;
+}
+h4{
+	font-family: sans-serif, "Times New Roman", serif;
+	font-size: 20px;
+}

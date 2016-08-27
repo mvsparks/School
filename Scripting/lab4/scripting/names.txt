@@ -1,0 +1,17 @@
+See if you can create a sed command that will allow you to tag all the names
+with <NAME> </NAME> tags (there are four names here):
+(note: name tags should go around the whole name, not around first name and then
+around last name)
+
+This file contains some random Text. It
+also has a Few names of various people.
+Names such as John Adams. I just made up these
+names randomly. Kind of like Thomas Jefferson probably would.
+He was one of the Authors of the Declaration of Independence.
+So I assume he was probably good at this sort of thing. Writing, I mean.
+He was a Virginian, like the first U.S. president: George Washington.
+Another president with that first name was George W. Bush. 
+His dad was also president, and had the same first name... But we can't use him
+for this test file because he has two middle initials.
+Although... we could easily modify our sed command to handle that. Couldn't
+we?

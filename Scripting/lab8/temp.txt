@@ -1,0 +1,11 @@
+(dp0
+S'tomato'
+p1
+F1.5
+sS'radish'
+p2
+I15
+sS'cucumber'
+p3
+I2
+s.

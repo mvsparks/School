@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lab2App1</string>
+    <string name="action_settings">Settings</string>
+    <string name="blountDesc">Blount County Campus</string>
+    <string name="divisionDesc">Division Street Campus</string>
+    <string name="hardinDesc">Hardin Valley Campus</string>
+    <string name="magnoliaDesc">Magnolia Campus</string>
+    <string name="stawberryDesc">Strawberry Plains Campus</string>
+    <string name="blountTitle">Blount County Campus</string>
+    <string name="divisionTitle">Division Street Campus</string>
+    <string name="magnoliaTitle">Magnolia Campus</string>
+    <string name="strawberryTitle">Strawberry Plains Campus</string>
+    <string name="hardinTitle">Hardin Valley Campus</string>
+    <string name="title_activity_blount">BlountActivity</string>
+
+    <string name="blountActivityTitle">Blount County Campus:</string>
+    <string name="blountStreet">2731 W. Lamar Alexander Parkway</string>
+    <string name="blountCityStateZip">Knoxville, TN 37933</string>
+    <string name="hardinActivityTitle">Hardin Valley Campus:</string>
+    <string name="hardinStreet">10915 Hardin Valley Road</string>
+    <string name="hardinCityStateZip">Knoxville, TN 37933</string>
+    <string name="divisionActivityTitle">Division Street Campus:</string>
+    <string name="divisionStreet">3435 Division Street</string>
+    <string name="divisionCityStateZip">Knoxville, TN 37919</string>
+    <string name="magnoliaActivityTitle">Magnolia Avenue Campus:</string>
+    <string name="magnoliaStreet">1610 E. Magnolia Avenue</string>
+    <string name="magnoliaCityStateZip">Knoxville, TN 37917</string>
+    <string name="strawberryActivityTitle">Strawberry Plains Campus:</string>
+    <string name="strawberryStreet">7201 Strawberry Plains Pike</string>
+    <string name="strawberryCityStateZip">Knoxville, TN 37914</string>
+    <string name="title_activity_hardin">HardinActivity</string>
+
+
+    <string name="title_activity_divisin">DivisionActivity</string>
+    <string name="title_activity_magnolia">MagnoliaActivity</string>
+    <string name="title_activity_strawberry">StrawberryActivity</string>
+</resources>

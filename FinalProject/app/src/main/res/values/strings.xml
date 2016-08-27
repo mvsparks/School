@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="main_title">School Finder</string>
+    <string name="title_activity_school_description">SchoolDescription</string>
+    <string name="title_activity_school_map">Map</string>
+    <string name="intro_paragraph">Select from the list a school name and then select the Get Information button. Once the button is selected you will be shown a multitude of information about the institution. The View Map button will provide you with a google map image of the institution.</string>
+    <string name="school_button">Get Information</string>
+    <string name="back_button">Back</string>
+    <string name="map_button">View Map</string>
+</resources>

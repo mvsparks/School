@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sparks.csit.lab4app1.DisplayGrades"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/studentName"
+        android:id="@+id/textViewName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/name"
+        android:textColor="@color/studentName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/test1"
+        android:id="@+id/textViewTest1"
+        android:layout_below="@+id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/grades"
+        android:textColor="@color/grades"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/test2"
+        android:id="@+id/textViewTest2"
+        android:layout_below="@+id/textViewTest1"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/grades"
+        android:textColor="@color/grades"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/test3"
+        android:id="@+id/textViewTest3"
+        android:layout_below="@+id/textViewTest2"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/grades"
+        android:textColor="@color/grades"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/finalGrade"
+        android:id="@+id/textViewFinal"
+        android:layout_below="@+id/textViewTest3"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/grades"
+        android:textColor="@color/grades"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/totalGrade"
+        android:id="@+id/textViewTotalGrade"
+        android:layout_below="@+id/textViewFinal"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/letterGrade"
+        android:textColor="@color/letterGrade"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:id="@+id/buttonBack"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/button"/>
+</RelativeLayout>

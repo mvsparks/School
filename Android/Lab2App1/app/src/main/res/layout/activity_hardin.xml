@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sparks.csit.lab2app1.HardinActivity"
+    android:background="#4169E1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/hardinTitle"
+        android:id="@+id/textViewHardinTitle"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:contentDescription="@string/hardinTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/hardinStreet"
+        android:id="@+id/textViewHardinStreet"
+        android:layout_below="@+id/textViewHardinTitle"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/hardinCityStateZip"
+        android:id="@+id/textViewHardingCityStateZip"
+        android:layout_below="@+id/textViewHardinStreet"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+</RelativeLayout>

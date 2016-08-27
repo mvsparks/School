@@ -1,0 +1,18 @@
+#presidents{
+	font-family: "Palatino Linotype", "Times New Roman", serif;
+	border-collapse: collapse;
+	width: 60%;
+}
+#presidents th{
+	background-color: blue;
+	color: white;
+}
+#presidents td, th{
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	border: 1px solid Black;
+}
+#presidents tr.alt td{
+	background-color: Aquamarine;
+}
+

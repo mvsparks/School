@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1App1</string>
+
+    <string name="first_name">Vince Sparks</string>
+    <string name="title">Business &amp; Computer Technology Department</string>
+    <string name="address">123 Oak St</string>
+    <string name="city_state_zip">Knoxville, TN - 37938</string>
+    <string name="action_settings">Settings</string>
+</resources>

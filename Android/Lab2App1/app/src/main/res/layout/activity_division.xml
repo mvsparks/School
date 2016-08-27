@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sparks.csit.lab2app1.DivisionActivity"
+    android:background="#4169E1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/divisionActivityTitle"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textViewDivisionTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:contentDescription="@string/divisionActivityTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/divisionStreet"
+        android:textSize="20sp"
+        android:id="@+id/textViewDivisionStreet"
+        android:layout_below="@+id/textViewDivisionTitle"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/divisionStreet"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/divisionCityStateZip"
+        android:textSize="20sp"
+        android:id="@+id/textViewDivisionCityStateZip"
+        android:layout_below="@+id/textViewDivisionStreet"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/divisionCityStateZip" />
+</RelativeLayout>

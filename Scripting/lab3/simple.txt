@@ -1,0 +1,14 @@
+This is a simple test file that can be useful when
+writing regex code. It is best to construct
+regular expressions incrementally - using small steps.
+To start, try creating an egrep command that only
+displays lines that contain numbers. 
+Try creating one that picks up lines with punctuation.
+Then create a more complex pattern...
+perhaps find all the lines that end with...
+Here's a line with both numbers 123 and letters
+And one with some, but not much, punctuation.
+1234567
+8
+123a
+create

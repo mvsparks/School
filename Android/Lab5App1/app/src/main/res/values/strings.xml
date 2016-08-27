@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab5App1</string>
+    <string name="album_title_cars">Cars</string>
+    <string name="album_title_animals">Animals</string>
+    <string name="title">Please select an album</string>
+    <string name="action_settings">settings</string>
+    <string name="back_button">Back</string>
+</resources>
